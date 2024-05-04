@@ -1,0 +1,30 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "A place to store my advent of code solutions and workings",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "ts-node",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moose-hub/AdventOfCode.git"
+  },
+  "author": "moose-hub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moose-hub/AdventOfCode/issues"
+  },
+  "homepage": "https://github.com/moose-hub/AdventOfCode#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.7",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
